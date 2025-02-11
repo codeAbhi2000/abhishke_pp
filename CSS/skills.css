@@ -4,6 +4,7 @@
                          'interest iteams';
     align-items: center;
     padding: 0px 50px;
+    gap: 0.3rem;
 }
 .skills hr{
     margin: 0;
@@ -45,8 +46,10 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3, auto);
     align-items: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+ 
+    gap: 10px;
     
 }
 .iteamCircle{
@@ -62,6 +65,7 @@
 .iteamCircle img{
     transition: 0.5s all ease-in-out;
     height: 75%;
+    border-radius: 50%;
 }
 .iteamCircle:hover > img{
     transform: scale("50%");

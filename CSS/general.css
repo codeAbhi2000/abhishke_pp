@@ -62,8 +62,9 @@ section{
 }
 .right h2{
     position: relative;
-    bottom: 110px;
+    bottom: 120px;
     transform: rotate(90deg);
+    z-index: 40;
 }
 .right h2 a{
     transition: 0.1s font-size;
@@ -98,12 +99,13 @@ section hr{
     align-items: center;
     position: relative;
     left: 40%;
-    top: 5%;
+    top: 10%;
 }
 
 .btn-donload button{
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 
 /* Buttons */
@@ -111,13 +113,13 @@ button{
     position: relative;
     display: block;
     min-width: 130px;
-    height: 40px;
+    height: 49px;
     margin: 0 auto;
     color: #36FBB1;
     border: 1px solid #36FBB1;
     border-radius: 50px;
     background-color: #36FBB125;
-    padding: 5px 10px;
+    padding: 10px 20px;
     font-weight: 500;
     font-size: 1rem;
     font-family: 'Inconsolata', monospace;

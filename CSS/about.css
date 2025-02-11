@@ -34,7 +34,7 @@
     color: #BAC3CF;
 }
 .aboutMe span{
-    color: #E7E9E9;
+    color: #36FBB1;
     font-weight: 500;
 }
 .about a{
@@ -43,7 +43,7 @@
 .img{
     grid-area: pic;
     justify-self: center;
-    width: 75%;
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
@@ -52,7 +52,7 @@
     transition: 0.5s all linear;
 }
 .img img{
-    right: 0;
+    /* left: 20%; */
     bottom: 0;
     height: 100%;
     transition: 0.5s all linear;
